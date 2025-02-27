@@ -37,7 +37,7 @@ export default function About() {
               <li>
                 <h4 className="font-semibold">Frontend Developer</h4>
                 <p className="text-gray-600">ThoughtStream Innovation Pvt. Ltd. </p>
-                <p className="text-gray-500">July-2022 to Sept-2019</p>
+                <p className="text-gray-500">July-2022 to Sept-2022</p>
               </li>
             </ul>
           </div>
