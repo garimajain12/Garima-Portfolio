@@ -1,0 +1,8 @@
+# Ignore all JSX files - JSHint doesn't support JSX syntax
+*.jsx
+**/*.jsx
+src/**/*.jsx
+src/**/*.jsx
+src/components/**/*.jsx
+src/context/**/*.jsx
+

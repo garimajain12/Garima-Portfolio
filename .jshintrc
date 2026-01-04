@@ -1,0 +1,18 @@
+{
+  "esversion": 9,
+  "module": true,
+  "browser": true,
+  "node": true,
+  "strict": false,
+  "asi": true,
+  "undef": true,
+  "unused": true,
+  "expr": true,
+  "globals": {
+    "React": false,
+    "ReactDOM": false,
+    "process": false,
+    "JSX": false
+  }
+}
+
