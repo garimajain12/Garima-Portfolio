@@ -4,7 +4,7 @@ A modern, animated React.js portfolio website with dark/light mode support.
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Portfolio](https://your-portfolio-link.vercel.app/)** 
+🔗 **[View Live Portfolio](https://garima-jain-portfolio.vercel.app/)** 
 
 ## Features
 
