@@ -33,14 +33,28 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #6366f1;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-[data-theme='dark'] .logo {
-  color: #818cf8;
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+  transition: var(--transition);
+}
+
+[data-theme='dark'] .logo-image {
+  border: none;
+}
+
+.navbar.scrolled .logo-image {
+  width: 40px;
+  height: 40px;
 }
 
 .nav-menu {

@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useTheme } from '../context/ThemeContext'
 import { FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa'
 import '../styles/Navbar.css'
+import profileImage from '../image/Garima.png'
 
 const Navbar = () => {
   const { theme, toggleTheme } = useTheme()
@@ -48,8 +49,9 @@ const Navbar = () => {
           className="logo"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
+          onClick={() => scrollToSection('home')}
         >
-          <span>Portfolio</span>
+          <img src={profileImage} alt="Garima Jain" className="logo-image" />
         </motion.div>
 
         <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
